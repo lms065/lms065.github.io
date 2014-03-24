@@ -1,0 +1,5 @@
+ls
+mkdir stuff
+cd stuff
+ls
+ssh-keygen -t -rsa
