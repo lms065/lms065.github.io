@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Loan Payment Calculator</title>
+		<link href="loanscreen.css" rel="stylesheet" />
+		<script type="text/Javascript" src="loancalc.js">
+		
+		</script>
+		
+	</head>
+	
+	<body id="form">
+		<h1>Loan Payments Calculator</h1>
+		
+		<form method="get">
+			<p>
+				<label for="P"> Enter the Purchase Price: </label>
+				<input type="text" id="P" name="P" />
+			</p>
+			
+			<p>
+				<label for="D">Enter the Downpayment: </label>
+				<input type="text" id="D" name="D" />
+			</p>
+			
+			<p>
+				<label for="I">Enter Interest Rate: </label>
+				<input type="text" id="I" name="I" />
+			</p>
+			
+			<p>
+				<label for="N"> Enter Number of Payments: </label>
+				<input type="text" id="N" name="N" />
+			</p>
+			
+			<p>
+				<input type="button" value="Calculate" onclick="calculate_payments(this);" />
+				<input type="reset" Value="Clear" />
+			</p>
+		</form>
+		
+		<p><span id="calculated_payments"></span></p>
+		<p>Copyright &copy; <a href="mailto:logansimpson@student.lsmsa.edu">Logan Simpson </a></p>
+		
+	</body>
+</html>

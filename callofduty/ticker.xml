@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Keep ticker messages to 50 characters or less, otherwise they will not show up. -->
+<lijst>
+	<zin>Welcome to my Clan page template</zin>
+	<zin>This site has several features</zin>
+	<zin>For one, it has this ticker.</zin>
+	<zin>Keep the lines short enough to stay inside here...</zin>
+	<zin>This will display all the lines and repeat...</zin>
+	<zin>You can delete lines and also add new lines...</zin>
+</lijst>

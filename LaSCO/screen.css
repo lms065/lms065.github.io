@@ -1,0 +1,134 @@
+/* Screen CSS */
+
+* { margin:0; padding:0; }
+
+body { font-size:100%;
+		font-family: "Trebuchet MS", Arial, Helvetica, san-serif;
+		background-color: #FFFF99;
+		}
+
+#bannerimg { float: right;
+			border: none;
+			}
+			
+#wesley { 
+	width: 60%; 
+	height: 60%;
+	padding-left: 14em;
+	}
+	
+.right {float:right;}
+
+.left {float:left;}   
+
+.center { padding-left: 20em;
+		} 
+
+#Photocredit { padding-left: 20em; 
+			font-size: 1em;
+			} 
+
+#contactimg { margin-left: 20em;
+			margin-right: 20em;
+			}
+
+#eventlist { list-style: none; 
+			padding-left: 20em;
+			}  
+		
+aside nav {
+		float: right;
+		font-size: 1.25em;
+		padding-right: .5em;
+		margin-top: 0;
+		}
+		
+aside nav ul {
+		list-style: none;
+		}
+		
+aside nav ul li {
+		display:block;
+		position: relative;
+		float: left;
+		margin: 0;
+		}
+		
+aside nav ul li a:link, aside nav ul li a:visited {
+	
+		display:block;
+		text-decoration: none;
+		color: #333;
+		padding: .5em 1em;
+		}
+		
+aside nav ul li a:hover {
+		font-weight: bold;
+		background-color: #ddd;
+		}
+		
+#page {width: 90%;
+		background-color: white;
+		margin: 0 auto;
+		}
+		
+#banner {background-color: #A65400;
+		color: #e9e9e9;
+		padding: 15px;
+		height: 5em;
+		text-align: left;
+		}
+	
+#maintitle { font-size:30px;
+			}
+			
+#lsmsalink { text-decoration: none;
+			color: white;
+			}
+
+#subtitle {font-style: italic;
+			font-size:22px;}
+			
+#contentban { padding-left: 9em; 
+			} 
+		
+#mainContent { width: 78%;
+				padding: 10px;
+				color:#333;
+				float: left;
+				}
+				
+#maincontent p {padding-bottom: 1em;
+				} 
+
+#maincontent article {border-radius: 10px;
+					background-color: #eee;
+					padding: 2em;
+					margin-bottom: 2em;
+					} 
+				
+#sidebar {width: 12%;
+			padding: .5em;
+			background-color: #FFAD40;
+			color: #000;
+			float: right;
+			padding-bottom: 33em;
+			}
+			
+#CSSValid {float: bottom;}
+			
+nav ul li {list-style:none;line-height:1.25em}
+
+nav ul li a{color:#000; text-decoration:none;}
+
+footer {height: 27px;
+		padding-top: 2px;
+		clear:both;
+		text-align: center;
+		background-color:#A65400;
+		color: #e9e9e9;
+		}
+		
+#footercopy {text-decoration: none;
+			color: white;
+			}

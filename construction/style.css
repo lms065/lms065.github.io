@@ -1,0 +1,15 @@
+body {
+	background-image: url('website-under-construction.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	}
+	
+#email {
+	background-color: grey;
+    border-radius: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    float: left;
+	margin-top: 2px;
+	}

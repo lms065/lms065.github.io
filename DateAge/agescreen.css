@@ -1,0 +1,32 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+* {margin: 0; padding: 0;}
+
+body {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		color: #800000;
+	
+}
+
+h1 {
+	font-size: 24px;
+	color:#800000;
+	text-align: center;
+	letter-spacing: 5px;
+	border-bottom: 3px solid #800000;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+	
+#form {	margin-top: 1%;
+		margin-right: 30%;
+		margin-left: 30%;
+		border: #800000 solid 1px;
+		background-color: #faf0e6;
+		width: 550px;
+		text-align: center;
+}
+
+a:href, a:hover, a:visited {
+	color:#800000;

@@ -1,0 +1,50 @@
+/* Screen CSS */
+
+body {
+	background-image:url('wallpaper.jpg'); /* image courtesy of digitalrevolutions.biz */
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	}
+
+#main {background-color: grey;
+			border-radius: 20px;
+			padding-left: 1%;
+			padding-right: 1%;
+			margin-top: 1%;
+			}
+.left {
+	text-align: left;
+	margin-right: 60%;
+}
+
+div.floating-menu {position:fixed;background:grey;width:150px;z-index:100;}
+div.floating-menu a, div.floating-menu h3 {display:block;margin:0 0.5em; text-decoration:none;}
+
+.floating-menu {text-align:right;
+				margin-left: 85%;
+				}
+
+
+.right {text-align: right;
+		margin-left: 20%;
+		}
+		
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+#vid { float:right;
+		margin-top: 10em;
+		margin-right: 4em;}
+		
+footer {background-color:grey;
+		text-align: center;
+		margin-top: 5px;}

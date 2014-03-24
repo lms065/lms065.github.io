@@ -1,0 +1,62 @@
+/* Screen CSS */
+
+body {
+	background-image:url('wallpaper.jpg'); /* image courtesy of digitalrevolutions.biz */
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	}
+
+#main {background-color: grey;
+			border-radius: 20px;
+			padding-left: 1%;
+			padding-right: 1%;
+			margin-top: 1%;
+			}
+			
+#artright {background-color: grey;
+			border-radius: 20px;
+			padding-left: 1%;
+			padding-right: 1%;
+			margin-top: 1%;
+			width: 45%;
+			}
+
+div.floating-menu {position:fixed;background:grey;width:150px;z-index:100;}
+div.floating-menu a, div.floating-menu h3 {display:block;margin:0 0.5em; text-decoration:none;}
+
+.floating-menu {text-align:right;
+				margin-left: 85%;
+				}
+
+
+
+		
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+#vid { float:right;
+		margin-top: 10em;
+		margin-left: 4em;
+		}
+		
+footer {background-color:grey;
+		text-align: center;
+		}
+		
+.left {
+float:left;
+  margin-right: 51%;
+}
+.right {
+  float: right;
+  margin-left: 51%;
+}

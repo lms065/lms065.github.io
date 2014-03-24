@@ -1,0 +1,19 @@
+/* Screen CSS */
+
+body { font-size:100%;
+		font-family: "Trebuchet MS", Arial, Helvetica, san-serif;
+		background-color: #FFFF99;
+		}
+
+#page {width: 90%;
+		background-color: white;
+		margin: 0 auto;
+		}
+		
+#form {margin-left: 30%;
+		margin-right: 30%;
+		background-color: #FFFF99;
+		text-align: center;
+		}
+		
+footer { text-align: center; }

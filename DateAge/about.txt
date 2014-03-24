@@ -1,0 +1,5 @@
+Paul might be able to make an Excel maximum age and minimum age calculator, but I made a more powerful javascript verzion. Enjoy!
+
+-Logan
+
+Comments:
